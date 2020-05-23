@@ -24,7 +24,7 @@ trap 'echo "\"${last_command}\" command failed with exit code $?."' EXIT
 
 
 echo 'Installing content'
-installThings bison flex libevent-devel libncurses automake autoconf pkg-config
+installThings bison flex libevent-devel libncurses-dev automake autoconf pkg-config
 
 set -e
 
