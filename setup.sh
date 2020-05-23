@@ -40,7 +40,12 @@ cd ..
 
 # Currently bash-specific
 if ! grep -q 'source .*pureline' ~/.bashrc; then
-    echo 'source ~/pureline/pureline ~/.powerline.conf' >> ~/.bashrc
+    cat << EOF >> ~/.bashrc
+
+if [ "$TERM" != "linux" ]; then
+    source ~/pureline/pureline ~/.pureline.conf
+fi
+EOF
 fi
 
 # Update cmake to latest
