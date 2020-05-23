@@ -1,0 +1,15 @@
+[submodule "pureline"]
+	path = pureline
+	url = https://github.com/chris-marsh/pureline.git
+[submodule ".vim/bundle/Vundle.vim"]
+	path = .vim/bundle/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim.git
+[submodule "tmux"]
+	path = tmux
+	url = https://github.com/tmux/tmux.git
+[submodule "cmake"]
+	path = cmake
+	url = https://github.com/Kitware/CMake.git
+[submodule "powerline"]
+	path = powerline
+	url = https://github.com/powerline/fonts.git

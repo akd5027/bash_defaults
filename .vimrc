@@ -14,7 +14,6 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Tagbar'
 Plugin 'edkolev/tmuxline.vim'
-Plugin 'benmills/vimux'
 
 set rtp+=~/.vim/bundle/*
 
