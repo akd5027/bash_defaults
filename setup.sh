@@ -64,3 +64,5 @@ cd tmux
     make -j`nproc`
     sudo make install DESTDIR='/usr'
 cd ..
+
+make -C clang_complete install

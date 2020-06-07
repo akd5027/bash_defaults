@@ -13,3 +13,6 @@
 [submodule "powerline"]
 	path = powerline
 	url = https://github.com/powerline/fonts.git
+[submodule "clang_complete"]
+	path = clang_complete
+	url = https://github.com/xavierd/clang_complete.git
